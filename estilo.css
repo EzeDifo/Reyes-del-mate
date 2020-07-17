@@ -1,0 +1,132 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+h1{font-size: 66px; font-weight: 800px;line-height: 80px;margin-top: 140px;}
+h2{font-size:48px;margin-bottom: 30px;margin-top:40px}
+p{
+    font-size: 18px;
+    color: #999999;
+    line-height:1.8 ;
+    margin-bottom: 0;
+    margin-top:0px;
+}
+a:hover
+{
+    text-decoration:none;
+}
+
+.topmargin-xs{margin-top:15px;}
+.topmargin-sm{margin-top:30px;margin-left: 600px;}
+.topmargin-lp{margin-top:10px;}
+.cards
+{
+    margin-bottom: 20px;
+}
+.navbar
+{
+    background-color: white;
+    box-shadow: 0 2px 4px 0 white;
+    min-height: 100px;
+}
+.Logo{
+	width: 100px;
+	height: 100px;
+}
+.LCartel{
+	width: 200px;
+    height: 200px;
+}
+.btn
+{
+    font-size: 14px;
+    padding: 15px, 26px;
+    min-width: 170px;
+    border-radius: 2px;
+    display: inline-block;
+}
+.btn-light
+{
+    background-color: white;
+    color:black;
+    border:white 2px solid;
+}
+.btn i
+{
+    font-size: 14px; margin-left: 5px;
+}
+.text-dark{color:black;margin-top: 0px;}
+.nav-link
+{
+    color: #1a1a1a;
+}
+.nav-link:hover{color:black}
+.navbar-toggler{font-size:40px;}
+.navbar-toggler:focus{outline: none;}
+
+#hero
+{
+    background-image:url('images/Fondo.png') ;
+    background-size:cover;
+    padding-top:90px;
+    min-height: 600px;
+    color:white;
+}
+#hero p {
+color:white;
+}
+.content-center 
+{
+    max-width: 800px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+.portfolio-container
+{
+    position:relative;
+    overflow: hidden;
+    margin: 10px 0;
+    border-radius: 2px;
+    margin-top: 10px 0;
+    
+}
+.portfolio-container img
+{
+-moz-transition: all 0,8s;
+-webkit-transition: all 0,8s;
+transition: all 0,8s;
+}
+.portfolio-container img:hover{
+    transform: scale(1.2);
+}
+.portfolio-details
+{
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    z-index: 9000;
+}
+.portfolio-details h2{
+    margin-bottom: 0px;
+}
+.portfolio-details a h2
+{
+color: white;
+}
+.portfolio-details a p{
+    color: black;
+}
+.Logo-Foote{
+	margin-left: 60px;
+	width: 100px;
+	height: 100px;
+}
+.cont-footer{
+	background:#000000;
+}
+.Color{
+	color: #FFF;
+}
+.ColorNum{
+	color:#5bc0de;
+}
+
